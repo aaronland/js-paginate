@@ -1,8 +1,8 @@
 window.addEventListener("load", function load(event){
 
-	var prev = document.getElementById("previous-page");
-	var next = document.getElementById("next-page");
-	
+	var prev = document.getElementById("pagination-previous-page");
+	var next = document.getElementById("pagination-next-page");
+
 	document.addEventListener('keydown', function(e){
 		
 		var loc;
